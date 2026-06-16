@@ -3,4 +3,5 @@ A)Data types:
 typeof :-
 ![alt text](image.png)
 
-b)
+b)Memory & Threads
+![alt text](image-1.png)
