@@ -7,7 +7,7 @@ const num = new Number(34);
 console.log(num);
 
 console.log(num.toString().length);
-console.log(num.toFixed(2)); // important for E -commerce websites where cost is mentioned.
+console.log(num.toFixed(2)); // important for E -commerce websites where cost is mentioned.RETURNS String.
 
 const number1 = 344.58;
 console.log(number1.toPrecision(1));//Very imp for interviews.Run the command only to revise. 
@@ -27,6 +27,5 @@ Math.floor();
 
 
 console.log(Math.random());//Generated randomly the number.
-
 
 
