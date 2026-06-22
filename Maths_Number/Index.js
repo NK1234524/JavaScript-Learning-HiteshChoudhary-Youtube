@@ -15,10 +15,10 @@ console.log(number1.toPrecision(1));//Very imp for interviews.Run the command on
 const hundreds  =100000;//'en-IN' is the Indian number System.
 console.log(hundreds.toLocaleString('en-IN'));//provide the representation of value with Number system.
 
-Number.MIN_VALUE;//Maximum number 
-Number.MAX_VALUE;//Minimum number
+Number.MIN_VALUE;//Smallest non -ve but closer to 0 number.
+Number.MAX_VALUE;//Largest value can be represented.
 
-/**Maths***/
+/***Maths***/
 
 Math.abs(value);
 Math.round(4.3);    
