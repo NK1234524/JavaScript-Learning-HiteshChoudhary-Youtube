@@ -22,4 +22,18 @@ console.log(arr)
 arr.unshift(10)
 console.log(arr)
 
-//
+console.log(arr.includes(2)); // returns true or flase for the element is present or not.
+console.log(arr.indexOf(3));//returns index of the element of the array
+
+const Arr = arr.join();
+
+console.log(Arr);//join binds and convert the Arr into the string 
+console.log(arr);
+
+
+const myArr = arr.slice(1,3)//cuts the particular section of the array but not changes the original array.
+//also not include the element at index 3 
+const myArr = arr.splice(1,3)//cuts the complete section of the array but changes the original array.
+//also includes the element at index 1 & 3.
+
+
