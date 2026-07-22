@@ -50,4 +50,10 @@ Object.keys(UserInfo);
 Object.values(UserInfo);
 console.log(UserRegular.designation.hasOwnProperty("Location")); //To check the property really exists or not 
 
+//Destructuring an object
+
+const {name:nameof}=UserRegular;
+console.log(nameof);//so to access the prop of the object specifically we will store it in {}
+
+
 
