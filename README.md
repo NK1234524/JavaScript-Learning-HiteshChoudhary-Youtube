@@ -6,7 +6,13 @@ typeof :-
 b)Memory & Threads
 ![alt text](image-1.png)
 
+****Tools***
+json formatter-->format the json data to investigate.
+RandomAPI--> for json 
+
+
 ******Inteviews*******
 c)Priority --->
   1.OOPS
-  2.
+  2.Arrays
+  3.Functions
