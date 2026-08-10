@@ -21,7 +21,10 @@ console.log(Add(2,4)); // 2,4 are arguments here
 // function implementation
 
 function Logg(username){
-    return `${username} is logged in`//String interpolation is used here
+    if(!username){
+    return //Do not return anything an 'empty return only'
+ }
+ return `${username} is logged in `
 }
 console.log(Logg()); // argument if blank then undefined will come in output.
 console.log(Logg('Nishant kumar'));
