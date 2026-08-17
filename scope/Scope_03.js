@@ -30,7 +30,7 @@ function Name_Mine(){
 }
 
 Name_Mine() // it is showing undefined as an output 
-//because only works for objects.
+//because this keyword only works for objects.
 
 //******Arrow functions****
 
