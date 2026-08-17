@@ -17,7 +17,7 @@ console.log(this); // that's why here the output is {} because no object is havi
 //*********New Case******/
 function name(){
     console.log(this)
-    // give all the context regarding the node enviroment.
+    // give all the context regarding the node enviroment now.
     //But it was not showing anything earlier without fn.{}
 }
 name()
