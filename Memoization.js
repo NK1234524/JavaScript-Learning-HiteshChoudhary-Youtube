@@ -75,5 +75,4 @@ console.time();
 let ans = Memo(multiply);
 console.log(ans(5));
 //console.log(ans(5)); // comes from cache
-
 console.timeEnd();
