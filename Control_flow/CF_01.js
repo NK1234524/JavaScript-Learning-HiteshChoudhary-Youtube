@@ -1,4 +1,5 @@
 //Control flow 
+// Here the Conditional statements are used to make the implementation of the code for certain section.
 
 if(true){
     // Every code inside the scope of true condition will run
