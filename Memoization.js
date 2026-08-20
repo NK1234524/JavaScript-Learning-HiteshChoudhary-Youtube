@@ -43,31 +43,37 @@
 
 //
 
-const multiply=(num)=>{
-    let value=0;
-    for(let i =1 ; i<=num ;i++){
-        value+=i;       
+const multiply = (num) => {
+    let value = 0;
+
+    for (let i = 0; i <= num; i++) {
+        value += i;
     }
+
     return value;
 }
 
-const Memo = (fn)=>{
-    let cache = {}
-     
-    return function(...args){
-        let keys =args[0];
-    if(keys in cache){
-        return cache[keys];
-    }
-    else{
-        let result = fn(multiply);
-        cache[keys] = result;
-        return result;        
-    }
-  }
-}
+const Memo = (fn) => {
+    let cache = {};
 
-console.time();
-let ans = Memo(multiply)
-console.log(ans(5))
+    return function (...args) {
+        let key = args[0];
+
+        if (key in cache) {
+            return cache[key];
+        } else {
+            let result = fn(...args);
+            cache[key] = result;
+            return result;
+        }
+    }
+}
+console.time()
+console.log(multiply(5))
 console.timeEnd()
+console.time();
+let ans = Memo(multiply);
+console.log(ans(5));
+//console.log(ans(5)); // comes from cache
+
+console.timeEnd();
