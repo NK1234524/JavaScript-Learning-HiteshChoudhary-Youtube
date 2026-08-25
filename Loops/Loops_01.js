@@ -103,3 +103,27 @@ arr_1.forEach(function(val) {
     console.log(val);
         
 });
+
+// Some new way to use for each
+function name(val){
+    console.log(val);
+    
+}
+arr_1.forEach(name) // Here name of the function is used only as a reference of the function we are using here 
+
+// Now to access item, index, arr through forEach loop
+
+arr_1.forEach((item , index , arr)=>{
+    console.log(item , index , arr);
+    
+})
+
+// Now the issue which we are facing in the JS regarding an array as they can consists of objects then:
+arr_New = [
+    {'Name':'NK'},
+    {'Name2':'PK'}
+]
+arr_New.forEach((item)=>{
+    console.log(item);
+    
+})
