@@ -20,5 +20,16 @@ while(i<arrays.length){
     i++;  
 }
 
-// do while loop
+// High order Array loops
+
+// For of loop
+
+// In JS array can consists of objects
+// arr = [ {} , {}, {}, {}]
+// So here in for of loop we use to access the objects 
+
+numbers = [1,2,3,4,5]
+for(num of numbers){
+    console.log(numbers); // here num of Object i.e numbers    
+}
 
