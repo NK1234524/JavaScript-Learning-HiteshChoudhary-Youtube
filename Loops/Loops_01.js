@@ -30,6 +30,19 @@ while(i<arrays.length){
 
 numbers = [1,2,3,4,5]
 for(num of numbers){
-    console.log(numbers); // here num of Object i.e numbers    
+    console.log(num); // here num of Object i.e numbers    
 }
 
+word = "Hll"
+for(str of word){
+    console.log(str);
+    
+}
+
+// Map
+const map = new Map()
+map.set("IN",'India');
+map.set("Pak",'Pakistan');
+map.set("Ban",'Bangladesh');
+
+console.log(map);
