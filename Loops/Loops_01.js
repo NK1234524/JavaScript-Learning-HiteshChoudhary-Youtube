@@ -83,3 +83,23 @@ for(keys in arr_1){
 // Because before the development of Object in JS the array was having an issue that the key value. 
 // Data in an array always consists of numbers starting from 0. 
 // So to tackle that issue in JS Object concept is introduced.
+
+// but to access the values through for-in loop in an array we can do
+for (const key in arr_1) {
+    console.log(arr_1[key])      
+}
+
+// For maps it is not iteratable
+// So extracting data directly from the Map is not possible
+
+for(const val in arr_1){
+    console.log(val); // Nothing will come     
+}
+
+// For each
+// So in For each loop their is the concept of callback fun i.e function(val) here
+// Again here we need to only to operate foreach loop through using dot(.) operator on the array.
+arr_1.forEach(function(val) { 
+    console.log(val);
+        
+});
