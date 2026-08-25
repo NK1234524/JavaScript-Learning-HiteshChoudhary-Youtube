@@ -14,3 +14,11 @@ for(let i = 0 ; i<arrays.length ;i++){
     console.log("1 step up");    
 }
 // While Do While loops
+let i = 0;
+while(i<arrays.length){
+    console.log(arrays[i]); 
+    i++;  
+}
+
+// do while loop
+
