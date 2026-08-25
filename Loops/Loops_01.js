@@ -1,3 +1,4 @@
+// For loops
 for(let i = 1 ; i<=10 ;i++){
     let val = `5 * ${i} = ${5*i}`
     console.log(val);
@@ -11,4 +12,5 @@ for(let i = 0 ; i<arrays.length ;i++){
         break;        
     }
     console.log("1 step up");    
-} 
+}
+// While Do While loops
