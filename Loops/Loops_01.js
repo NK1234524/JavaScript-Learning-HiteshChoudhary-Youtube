@@ -44,5 +44,29 @@ const map = new Map()
 map.set("IN",'India');
 map.set("Pak",'Pakistan');
 map.set("Ban",'Bangladesh');
+map.set("Ban",'Bangladesh');
 
-console.log(map);
+console.log(map); // unique values always
+
+// How to access data in for of loop of Map
+
+for(const [ key,value] of map){
+    
+    console.log(`${key} => ${value}`);    
+  
+}
+
+// For of loop can not be used for Objects
+
+//So for that we will use for in loop
+
+// It does not mean forin loop can only be used for objects it can be used for Other DS also
+
+myObj = {
+    'py':'python',
+    'rb':'Ruby'
+}
+
+for (const key in myObj) {
+       console.log(myObj);       
+}
