@@ -70,3 +70,16 @@ myObj = {
 for (const key in myObj) {
        console.log(myObj);       
 }
+
+// Can we use it in an array Lets do it !!
+
+arr_1 = ['me','musza','shr']
+for(keys in arr_1){
+    console.log(keys);    
+}
+
+// So here for an array for-in loop is showing 0,1,2 in place of value 
+// Why is it so ?
+// Because before the development of Object in JS the array was having an issue that the key value. 
+// Data in an array always consists of numbers starting from 0. 
+// So to tackle that issue in JS Object concept is introduced.
