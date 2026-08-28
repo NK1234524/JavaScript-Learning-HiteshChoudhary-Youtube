@@ -22,5 +22,6 @@ console.log(map_n)
 
 // chaining => chained the methods here.
 const chain = numbers.map((num)=>num*10).map((num)=>num+1).filter((num)=>num>=40)
+//filter always gives true or false.
 console.log(chain)
 
