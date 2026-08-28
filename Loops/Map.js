@@ -20,7 +20,7 @@ console.log(map_num);
 const map_n = numbers.map((num)=>{return num+10});
 console.log(map_n)
 
-// chaining 
+// chaining => chained the methods here.
 const chain = numbers.map((num)=>num*10).map((num)=>num+1).filter((num)=>num>=40)
 console.log(chain)
 
