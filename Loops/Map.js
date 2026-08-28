@@ -11,5 +11,12 @@ const newnum1 = numbers.filter((num)=>{
 console.log(newnum1);
 
 
+// Using Map function
+// It is a callback function
 
+const map_num = numbers.map((num)=> num+10);// Here map fn have automatic return
+// but with scope it will again need to be have return
+console.log(map_num);
+const map_n = numbers.map((num)=>{return num+10});
+console.log(map_n)
 
