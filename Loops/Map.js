@@ -11,3 +11,5 @@ const newnum1 = numbers.filter((num)=>{
 console.log(newnum1);
 
 
+
+
