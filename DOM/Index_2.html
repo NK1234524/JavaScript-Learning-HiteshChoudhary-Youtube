@@ -31,14 +31,15 @@
     // Document on web is the form of Tree
 
     //Create an Element
-    const Div = document.createElement('div')
+    const div = document.createElement('div')
     // Now you can do different properties application here :
-    Div.className = "main"
-    Div.id = Math.round(Math.random()*10+1);
-    Div.setAttribute("title","gnerated title")
-    Div.style.backgroundColor = "green"
-    Div.style.padding = "12px"
-    Div.innerText = "Nishant Kumar"
-    document.createTextNode
+    div.className = "main"
+    div.id = Math.round(Math.random()*10+1);
+    div.setAttribute("title","gnerated title")
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+    div.innerText = "Nishant Kumar"
+    const addtext = document.createTextNode("Hello")
+    div.appendChild(addtext)
 </script>
 </html>
