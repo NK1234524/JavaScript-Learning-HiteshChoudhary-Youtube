@@ -29,5 +29,16 @@
 
     console.log("Node :",parent.childNodes) // It shows the nodes of document query of parent.
     // Document on web is the form of Tree
+
+    //Create an Element
+    const Div = document.createElement('div')
+    // Now you can do different properties application here :
+    Div.className = "main"
+    Div.id = Math.round(Math.random()*10+1);
+    Div.setAttribute("title","gnerated title")
+    Div.style.backgroundColor = "green"
+    Div.style.padding = "12px"
+    Div.innerText = "Nishant Kumar"
+    document.createTextNode
 </script>
 </html>
