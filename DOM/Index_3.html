@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color: #212121; color:white">
+    <ul class="Language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    function add_element(LangName){
+        const li = document.createElement('li')
+        li.innerHTML = `${LangName}`
+        document.querySelector('.Language').appendChild(li)
+    }
+
+    function add_element_opti(LangName){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(LangName))
+        document.querySelector('.Language').appendChild(li)
+    }
+    add_element("Python")
+    add_element_opti("TypeScript")
+</script>
+</html>
