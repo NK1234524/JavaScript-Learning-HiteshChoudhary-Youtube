@@ -24,5 +24,12 @@
     }
     add_element("Python")
     add_element_opti("TypeScript")
+
+    const li = document.querySelector('li:nth-child(1)')
+    const new_li = document.createElement('li')
+    new_li.textContent = 'Mojo'
+    new_li.replaceWith(li)
+
+    
 </script>
 </html>
