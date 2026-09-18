@@ -38,7 +38,8 @@
     div.setAttribute("title","gnerated title")
     div.style.backgroundColor = "green"
     div.style.padding = "12px"
-    // Through div.innerText and create TextNode we can easily add text into it.
+    // Through div.innerText and create TextNode we can easily add text into it. but the difference is only in 
+    // the optimistic way of how we will use the tree operation here because the Document is the tree. 
     div.innerText = "Nishant Kumar"
     const addtext = document.createTextNode("Hello")
     div.appendChild(addtext)
